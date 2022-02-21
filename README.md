@@ -42,8 +42,8 @@ _Observacion: se ejecuta npm install en ambas ocaciones ya que cada proyecto tie
 
 _Una vez que esten corriendo los comandos podemos acceder:_
 
-* Frontend: https://localhost:8080
-* Backend: https://localhost:3000
+* Frontend: http://localhost:8080
+* Backend: http://localhost:3000
 
 ## Peticiones a la API
 

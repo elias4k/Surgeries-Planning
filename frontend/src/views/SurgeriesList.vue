@@ -76,7 +76,7 @@
                   >
                     <v-text-field
                       v-model="editedItem.datetime_cx"
-                      label="Fecha cirugia"
+                      label="Fecha cirugía"
                     ></v-text-field>
                   </v-col>
                   <v-col
@@ -165,24 +165,24 @@
         },
         { text: 'Doctor', value: 'doctor' },
         { text: 'Cirugía', value: 'cirugia' },
-        { text: 'Fecha Cirugia', value: 'datetime_cx' },
+        { text: 'Fecha Cirugía', value: 'datetime_cx' },
         { text: 'Estado', value: 'estado' }
     ],
       desserts: [],
       editedIndex: -1,
       editedItem: {
         paciente: '',
-        doctor: 0,
-        cirugia: 0,
-        datetime_cx: 0,
-        estado: 0,
+        doctor: '',
+        cirugia: '',
+        datetime_cx: '',
+        estado: '',
       },
       defaultItem: {
         paciente: '',
-        doctor: 0,
-        cirugia: 0,
-        datetime_cx: 0,
-        estado: 0,
+        doctor: '',
+        cirugia: '',
+        datetime_cx: '',
+        estado: '',
       },
     }),
 
